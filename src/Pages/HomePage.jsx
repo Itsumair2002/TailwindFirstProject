@@ -1,9 +1,9 @@
-import Header from "./Header"
+import Header from "../components/Header"
 
-const Home = () => {
+const HomePage = () => {
     return <div>
         <Header heading={'Home page content coming soon...'} />
     </div>
 }
 
-export default Home
+export default HomePage

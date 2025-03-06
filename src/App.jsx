@@ -4,7 +4,7 @@ import LandingPage from './Pages/LandingPage'
 import OtpPage from './Pages/OTPPage'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import NoPage from './Pages/NoPage'
-import Home from './components/Home'
+import HomePage from './Pages/HomePage'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Routes>
             <Route path='/LandingPage' element={<LandingPage />} />
             <Route path='/otpPage' element={<OtpPage />} />
-            <Route path='/Home' element={<Home />} />
+            <Route path='/Home' element={<HomePage />} />
             <Route path='*' element={<NoPage />} />
           </Routes>
         </div>
