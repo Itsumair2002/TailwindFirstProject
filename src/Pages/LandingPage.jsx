@@ -9,7 +9,7 @@ const LandingPage = () => {
     const [disabled, setDisabled] = useState(true)
     const inputRef = useRef()
 
-    return <div>
+    return <div >
         <div className="pb-15">
             <Logo />
         </div>
@@ -20,7 +20,8 @@ const LandingPage = () => {
             <Info Info={'Please confirm your birth year. This data will not be stored.'} />
         </div>
         <Input inputRef={inputRef} setDisabled={setDisabled} />
-        <Button disabled={disabled} textForButton={'Continue'} path={'/otppage'}/>
+        <Button disabled={disabled} textForButton={'Continue'} path={'/otppage'} />
+        <br />
     </div>
 }
 

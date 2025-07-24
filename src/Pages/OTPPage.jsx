@@ -18,7 +18,7 @@ const OTPPage = () => {
             <Info Info={'Please enter the verification code sent to your email id abdullahumair50@gmail.com'} />
         </div>
         <div className="mb-10 flex justify-center">
-            <OTPinput setButtonDisabled={setButtonDisabled} number={6} />
+            <OTPinput setButtonDisabled={setButtonDisabled} numberOfBoxes={6} />
         </div>
         <div>
             <Button textForButton={'Verify'} disabled={buttonDisabled} path={'/Home'}/>
